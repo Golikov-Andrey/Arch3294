@@ -2,7 +2,7 @@ package Classes;
 
 import java.awt.*;
 
-public abstract class Car {
+public class Car {
     private String make;
     private String model;
     private Color color;
@@ -97,7 +97,7 @@ public abstract class Car {
     public void movement(){}
     public void maintenance(){}
 
-    public abstract int gearShift(int gear);
+   // public abstract int gearShift(int gear);
     public boolean turnLights() {
         return true;
     }
